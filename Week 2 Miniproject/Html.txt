@@ -1,0 +1,23 @@
+HTML:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library </title>
+</head>
+<body bgcolor="skyblue">
+    <h1><center><u><i>Library Management System</i></u></h1></center>
+    <label for="bookTitle">Book Title:</label>
+    <input type="text" id="bookTitle">
+    <label for="authorName">Author:</label>
+    <input type="text" id="authorName">
+    <label for="yearOfPublication">Year of Publication:</label>
+    <input type="number" id="yearOfPublication">
+    <button onclick="addBook()">Add Book</button>
+    <ul id="bookList">
+        <!-- Book items will be added here -->
+    </ul>
+    <script src="script.js"></script>
+</body>
+</html>
